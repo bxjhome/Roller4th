@@ -84,4 +84,9 @@ void watchDog_user_dog1_RR(void);
 void watchDog_user_dog2_RR(void);
 void watchDog_user_dog3_RR(void);
 void watchDog_user_dog4_RR(void);
+int8_t I2C_bus_write(uint8_t dev_addr, uint8_t reg_addr, uint8_t * reg_data, uint8_t cnt);
+int8_t I2C_bus_write_byte(uint8_t dev_addr, uint8_t reg_addr, uint8_t value);
+int8_t I2C_bus_read(uint8_t dev_addr, uint8_t reg_addr, uint8_t * reg_data, uint8_t cnt);
+uint8_t I2C_bus_read_byte(uint8_t dev_addr, uint8_t reg_addr);
+void nrf_delay_ms(uint32_t number_of_ms);
 #endif

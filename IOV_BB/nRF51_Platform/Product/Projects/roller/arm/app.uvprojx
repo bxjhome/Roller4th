@@ -417,6 +417,11 @@
               <FileType>1</FileType>
               <FilePath>..\app.c</FilePath>
             </File>
+            <File>
+              <FileName>HDC1080.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HDC1080.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

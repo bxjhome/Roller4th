@@ -223,19 +223,19 @@
 
 #if (TWI0_ENABLED == 1)
 #define TWI0_CONFIG_FREQUENCY    NRF_TWI_FREQ_100K
-#define TWI0_CONFIG_SCL          0
-#define TWI0_CONFIG_SDA          1
+#define TWI0_CONFIG_SCL          7
+#define TWI0_CONFIG_SDA          8
 #define TWI0_CONFIG_IRQ_PRIORITY APP_IRQ_PRIORITY_LOW
 
 #define TWI0_INSTANCE_INDEX      0
 #endif
 
-#define TWI1_ENABLED 0
+#define TWI1_ENABLED 1
 
 #if (TWI1_ENABLED == 1)
 #define TWI1_CONFIG_FREQUENCY    NRF_TWI_FREQ_100K
-#define TWI1_CONFIG_SCL          0
-#define TWI1_CONFIG_SDA          1
+#define TWI1_CONFIG_SCL          17
+#define TWI1_CONFIG_SDA          16
 #define TWI1_CONFIG_IRQ_PRIORITY APP_IRQ_PRIORITY_LOW
 
 #define TWI1_INSTANCE_INDEX      (TWI0_ENABLED)

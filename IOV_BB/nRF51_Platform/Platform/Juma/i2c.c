@@ -13,7 +13,7 @@ void i2c_bus_init(void)
     uint32_t err_code;
     const nrf_drv_twi_config_t twi_config = {
         .scl                = 7,
-        .sda                = 14,
+        .sda                = 8,
         .frequency          = NRF_TWI_FREQ_400K, //was 100K
         .interrupt_priority = APP_IRQ_PRIORITY_HIGH
     };
