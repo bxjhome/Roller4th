@@ -6,7 +6,13 @@ require"sys"
 Trace control
 ]]
 --sys.opntrace(true,1)
-require"call"
+
+require"rollerPinCfg" 
+require"rollerLED"
+require"rollerI2C"
+require"rollerMsg"
+require"rollerUart"
+require"rollerCall"
 
 sys.init(0,0)
 sys.run()
