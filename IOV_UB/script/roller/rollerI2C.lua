@@ -14,7 +14,8 @@ local function init()
 		print("init fail")
 		return
 	end
-	print("init",string.format("%02X"),common.binstohexs(i2c.read(i2cid,0xD0,1)))
+	local id=i2c.read(i2cid,0xD0,1)
+	--print("init",string.format("%02X"),common.binstohexs(id))
 end
 
 init()
