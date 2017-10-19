@@ -359,9 +359,9 @@ sys.regmsg(rtos.MSG_AUDIO,audiomsg)
 --默认音频通道设置为LOUDSPEAKER，因为目前的模块只支持LOUDSPEAKER通道
 setaudiochannel(audio.LOUDSPEAKER)
 --默认音量等级设置为4级，4级是中间等级，最低为0级，最高为7级
-setspeakervol(audio.VOL4)
+setspeakervol(audio.VOL7)
 --默认MIC音量等级设置为1级，最低为0级，最高为15级
-setmicrophonegain(audio.MIC_VOL1)
+setmicrophonegain(audio.MIC_VOL15)
 
 
 --spriority：当前播放的音频优先级
